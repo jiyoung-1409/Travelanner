@@ -1357,8 +1357,6 @@ def view_preplace_cmd():
                             else:
                                 temp_name_for_file += word + "_"
 
-                        global place_file
-
                         f = open("{}/{}_{}_{}.txt" .format(path, state, city, temp_name_for_file), "w", encoding = "utf8")
                         f.write(place_file +"\n")
                         f.write(state + "\n") 
