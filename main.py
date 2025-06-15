@@ -971,7 +971,7 @@ def new_plan_cmd():
     new_plan_win_cho.mainloop()  
 
 
-new_plan_photo = PhotoImage(file = "./1_app_cha/new_plan_photo.png") 
+new_plan_photo = PhotoImage(file = "./imgs/new_plan_photo.png") 
 new_plan_btn = Button(start_win, image = new_plan_photo, command = new_plan_cmd)
 new_plan_btn.place(x = 410, y = 3)
 
@@ -1003,7 +1003,7 @@ def view_preplace_cmd():
         create_place_win.geometry("480x600+500+100")
         create_place_win.resizable(False, False)
 
-        place_file = "./1_app_cha/view_place_photo.png"
+        place_file = "./imgs/view_place_photo.png"
 
         global place_imagee
         place_imagee = PhotoImage(file = place_file, master = create_place_win)
@@ -1200,7 +1200,7 @@ def view_preplace_cmd():
             create_place_win.geometry("480x600+500+100")
             create_place_win.resizable(False, False)
 
-            place_imagee = PhotoImage(file = "./1_app_cha/view_place_photo.png", master = create_place_win)
+            place_imagee = PhotoImage(file = "./imgs/view_place_photo.png", master = create_place_win)
             place_image_lbl = Label(create_place_win, image = place_imagee, height = 180, width = 180)
             place_image_lbl.place(x = 20, y = 20)
 
@@ -1399,7 +1399,7 @@ def view_preplace_cmd():
     view_preplace_win.config(bg = "slate gray")
     view_preplace_win.mainloop()  
 
-view_preplace_photo = PhotoImage(file = "./1_app_cha/view_preplace_photo.png")
+view_preplace_photo = PhotoImage(file = "./imgs/view_preplace_photo.png")
 view_preplace_btn = Button(start_win, image = view_preplace_photo, padx = 5, pady = 5,  command = view_preplace_cmd)
 view_preplace_btn.place(x = 420, y = 560)
 
@@ -2088,7 +2088,7 @@ def view_preplan_cmd():
     view_preplan_win.config(bg = "slate gray")
     view_preplan_win.mainloop()  
 
-view_preplan_photo = PhotoImage(file = "./1_app_cha/view_preplan_photo.png")
+view_preplan_photo = PhotoImage(file = "./imgs/view_preplan_photo.png")
 view_preplan_btn = Button(start_win, image = view_preplan_photo, command = view_preplan_cmd)
 view_preplan_btn.place(x = 360, y = 560)
 
