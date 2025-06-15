@@ -19,9 +19,10 @@ Travelanner (travel + planner) is a desktop application that helps users efficie
 **how to execute**
 1. install python (https://python.org)
 2. in terminal screen,
-'''bash
+3. 
+```bash
 git clone https://github.com/jiyoung-1409/Travelanner.git
 cd Travelanner
 pip install -r requirements.txt
 python main.py
-''' bash
+```bash
