@@ -25,4 +25,3 @@ git clone https://github.com/jiyoung-1409/Travelanner.git
 cd Travelanner
 pip install -r requirements.txt
 python main.py
-```bash
